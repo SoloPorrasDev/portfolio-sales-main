@@ -1,0 +1,46 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb/base",
+    "plugin:import/typescript"
+  ],
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-console": 0,
+    "semi": 0,
+    "camelcase": "off",
+    "no-unused-expressions": "off",
+    "no-useless-constructor": 0,
+    "max-len": "off",
+    "object-shorthand": "off",
+    "no-useless-catch": "off",
+    "no-underscore-dangle": "off",
+    "no-param-reassign": "off",
+    "consistent-return": "off",
+    "no-shadow": "off",
+    "no-plusplus": "off",
+    "class-methods-use-this": "off",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-var-requires": "off",
+    "no-explicit-any": 0,
+    "@typescript-eslint/no-explicit-any": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  }
+}
